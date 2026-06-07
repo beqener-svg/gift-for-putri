@@ -504,12 +504,12 @@
     <div class="global-progress"><div id="progress-indicator"></div></div>
 
     <div class="audio-widget paused" id="audioMasterBtn" onclick="controlAudioEngine()">🎵</div>
-    <audio id="bgmAudio" loop><source src="suarahati.mp3" type="audio/mp3"></audio>
+    <audio id="bgmAudio" loop><source src="sempurna.m4a" type="audio/mp3"></audio>
 
     <div class="page active" id="stage0">
         <div class="glass-card">
             <h1 class="cinematic-title glow-text" style="font-size: 1.8rem;">AURIA ENGINE</h1>
-            <p class="subtitle">System version 5.0 Cinematic Edition.<br>Preparing premium visual journey experience...</p>
+            <p class="subtitle">Special Edition.<br>Preparing premium visual journey experience...</p>
             <div class="loader-bar-bg"><div class="loader-bar-fill" id="load-progress"></div></div>
         </div>
     </div>
@@ -553,7 +553,7 @@
             <p class="subtitle">Setiap langkah tak sengaja yang berubah jadi alur takdir terindah.</p>
             <div class="timeline-stream">
                 <div class="timeline-node">
-                    <img src="zahin.jpg" class="node-avatar">
+                    <img src="aur.jpg" class="node-avatar">
                     <div class="node-info"><h4>The Initial Spark</h4><p>Titik temu awal tak terduga yang mengubah arah duniaku.</p></div>
                 </div>
                 <div class="timeline-node">
@@ -565,7 +565,7 @@
                     <div class="node-info"><h4>The Sweetest Comfort</h4><p>Gugupnya telepon pertama, berganti jadi suara paling menenangkan.</p></div>
                 </div>
                 <div class="timeline-node">
-                    <img src="putri2.jpg" class="node-avatar">
+                    <img src="imut.jpg" class="node-avatar">
                     <div class="node-info"><h4>Absolute Decision</h4><p>Ketika hati melepaskan ego dan memilih berlabuh sepenuhnya padamu.</p></div>
                 </div>
             </div>
@@ -816,11 +816,11 @@
                     bgmMasterObject.play().catch(() => {});
                     document.getElementById("audioMasterBtn").classList.remove("paused");
                     shiftActivePage(2);
-                    executeTypingAnimationCore("core-type-space", "Sejak kehadiranmu terpatri dalam garis duniaku, semuanya tak lagi sama. Kamu adalah ketidakpastian paling indah yang ingin terus kuperjuangkan melewati ruang waktu.", () => {
+                    executeTypingAnimationCore("core-type-space", "Terima kasih sudah hadir dalam hidup ku putri.", () => {
                         document.getElementById("stage2-continue").style.display = "inline-block";
                     });
                 } else {
-                    setTimeout(() => { alert("Masa tanggal jadian kita lupa? Keterlaluan! 😂 Coba lagi!"); clearPinSequence(); }, 250);
+                    setTimeout(() => { alert("Masa tanggal spesial kita lupa? Keterlaluan! 😂 Coba lagi!"); clearPinSequence(); }, 250);
                 }
             }
         }
