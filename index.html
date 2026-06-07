@@ -504,12 +504,12 @@
     <div class="global-progress"><div id="progress-indicator"></div></div>
 
     <div class="audio-widget paused" id="audioMasterBtn" onclick="controlAudioEngine()">🎵</div>
-    <audio id="bgmAudio" loop><source src="sempurna.m4a" type="audio/mp3"></audio>
+    <audio id="bgmAudio" loop><source src="Sempurna.m4a" type="audio/mp3"></audio>
 
     <div class="page active" id="stage0">
         <div class="glass-card">
-            <h1 class="cinematic-title glow-text" style="font-size: 1.8rem;">AURIA ENGINE</h1>
-            <p class="subtitle">Special Edition.<br>Preparing premium visual journey experience...</p>
+            <h1 class="cinematic-title glow-text" style="font-size: 1.8rem;">PUTRI SPECIAL</h1>
+            <p class="subtitle">Special Edition.<br>Untuk kesayangan...</p>
             <div class="loader-bar-bg"><div class="loader-bar-fill" id="load-progress"></div></div>
         </div>
     </div>
@@ -816,7 +816,7 @@
                     bgmMasterObject.play().catch(() => {});
                     document.getElementById("audioMasterBtn").classList.remove("paused");
                     shiftActivePage(2);
-                    executeTypingAnimationCore("core-type-space", "Terima kasih sudah hadir dalam hidup ku putri.", () => {
+                    executeTypingAnimationCore("core-type-space", "Teruntuk putri.", () => {
                         document.getElementById("stage2-continue").style.display = "inline-block";
                     });
                 } else {
