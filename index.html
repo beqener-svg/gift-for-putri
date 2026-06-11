@@ -2087,9 +2087,10 @@ dan selamanya.
 
 <button
 class="waBtn"
-onclick="sendToWhatsapp()">
+id="yesBtn"
+onclick="sendToWhatsApp()">
 
-OPEN WHATSAPP
+❤️ IYA, MAU ❤️
 
 </button>
 
@@ -3341,17 +3342,17 @@ encodeURIComponent(message)
 }
 
 /* =====================================
-ACCEPT BUTTON
+YES BUTTON
 ===================================== */
 
-const acceptBtn=
+const yesBtn =
 document.getElementById(
-"acceptBtn"
+"yesBtn"
 );
 
-if(acceptBtn){
+if(yesBtn){
 
-acceptBtn.addEventListener(
+yesBtn.addEventListener(
 "click",
 sendToWhatsApp
 );
